@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Encriptador de Texto</title>
+  <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+  
+  <img class="imagem_A"  src="imagens/Frame 6.png" alt="">
+  <main class="apresentacao">
+        
+    <section class="esquerda">
+      <textarea id="campoTexto" placeholder="Digite seu texto" class="texto" rows="4" cols="50"></textarea>
+      
+      <div class="apresentacao__botao">        
+          <img class="imagem_exclamacao" src="imagens/exclamacao.png" alt="">
+          <p class="texto-comentario">Apenas letras minúsculas e sem acento.</p>        
+        </div>  
+        <div class="botao">
+          <button id="botaoCriptografar" class="botao_cripto">Criptografar</button>
+          <button id="botaoDescriptografar" class="botao_descripto" >Descriptografar</button>
+        </div>         
+      </section>
+
+      <section class="direita">
+      
+        <img class="imagem__boneco" id="imagemBoneco" src="imagens/1.png" alt="Imagem">                
+        
+        <h2 id="texto"></h2>
+        <p id="texto2"></p>
+      </div>
+
+      <div>
+        
+        <button id="botaoCopiar" >Copiar</button>
+      </div>
+    </section>        
+  
+  </main>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
+
